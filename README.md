@@ -21,4 +21,7 @@ And...Well, that's pretty much it, granted you have a modern version of Node and
 
 ### Usage
 `qrip 4000` to create a QR code with your local ip with `:4000` appended to it.
+
 `qrip 4000 /cats/666` to create a qr code similar to the above, except with an excplicitly set path.
+
+`qrip -h` for help.
