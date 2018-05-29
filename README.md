@@ -1,7 +1,11 @@
 # qrip
 
-A very simple cross-platform command line utility to help make trying out locally hosted (web) applications on mobile phones easier
+A very simple cross-platform command line utility to help make trying out locally hosted (web) applications on mobile phones easier.
+
+
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+
+___
 ### Use case
 Ever developed a mobile-friendly/mobile-first website in the browser and wanted to check out how it looks in an _actual_ mobile phone?
 Sure, you could host it in the cloud, but that is significant overhead.
