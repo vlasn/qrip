@@ -17,7 +17,7 @@ As most modern phones are perfectly capable of scanning QR codes and opening lin
 ### Installation
 *   clone this repository
 *   `npm install && npm link`
-And...Well, that's pretty much it, granted you have a modern version of Node and NPM installed.
+*   And...Well, that's pretty much it, granted you have a modern version of Node and NPM installed.
 
 ### Usage
 `qrip 4000` to create a QR code with your local ip with `:4000` appended to it.
