@@ -1,0 +1,26 @@
+{
+  "name": "qrip",
+  "version": "0.0.1",
+  "description": "CLI utility for creating QR codes to help testing webapps on mobile phones",
+  "main": "src/index.js",
+  "bin": {
+    "qrip": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlasn/qrip.git"
+  },
+  "keywords": [
+    "cli",
+    "utility"
+  ],
+  "author": "Veljo Lasn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlasn/qrip/issues"
+  },
+  "homepage": "https://github.com/vlasn/qrip#readme",
+  "dependencies": {
+    "qrcode-terminal": "0.12.0"
+  }
+}
