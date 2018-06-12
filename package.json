@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/vlasn/qrip#readme",
   "dependencies": {
+    "ngrok": "^3.0.1",
     "qrcode-terminal": "0.12.0"
   }
 }
