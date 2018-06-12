@@ -15,8 +15,7 @@ Sure, you could run `ipconfig` to find out your network IP, only to type it into
 As most modern phones are perfectly capable of scanning QR codes and opening links encoded in QR, why not make life a bit easier for yourself?
 
 ### Installation
-*   clone this repository
-*   `npm install && npm link`
+*   `npm i -g miniqrip`
 *   And...Well, that's pretty much it, granted you have a modern version of Node and NPM installed.
 
 ### Usage
@@ -24,4 +23,15 @@ As most modern phones are perfectly capable of scanning QR codes and opening lin
 
 `qrip 4000 /cats/666` to create a qr code similar to the above, except with an excplicitly set path.
 
-`qrip -h` for help.
+`qrip 4000 /cats/666 --ngrok` to also create an ngrok tunnel and generate a QR code for its public URL.
+
+`qrip --help` for... Help.
+
+### TODO:
+- [x] Publish the thing on NPM. Woooo!
+- [ ] Split cli script and logic into separate file(s) to allow in-project usage via require/import
+- [ ] Allow for programmatic closing of ngrok tunnel in the above scenario
+- [ ] Transpilation suite to allow working with older versions of Node
+- [ ] .npmignore to go with that
+- [ ] Tests
+- [ ] Nicer readme

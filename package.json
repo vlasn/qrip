@@ -1,5 +1,5 @@
 {
-  "name": "qrip",
+  "name": "miniqrip",
   "version": "0.0.1",
   "description": "CLI utility for creating QR codes to help testing webapps on mobile phones",
   "main": "src/index.js",
